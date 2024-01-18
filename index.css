@@ -1,0 +1,7 @@
+#bg-img {
+    background: url('./img/flat-lay-workstation-with-copy-space-laptop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    /* margin-bottom: -300px; */
+}
