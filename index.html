@@ -7,14 +7,15 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark" data-spy="spy" data-target=".navbar">
 
     <!-- Navbar -->
     <div id="Header" class="shadow-sm">
-        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-primary navbar-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <h3 class="m-0">Portfolio</h3>
@@ -45,7 +46,12 @@
     </div>
 
     <!-- ShowCase -->
-    <div id="bg-img"></div>
+    <div id="bg-img">
+        <div class="container">
+            <br><br><br><br><br>
+            <h1 class="text-white display-4 text-center">Greetings!</h1>
+        </div>
+    </div>
 
     <!-- About Me -->
     <div id="about">
@@ -71,17 +77,33 @@
                                                 <tr>
                                                     <td class="text-muted">Email</td>
                                                     <td>:</td>
-                                                    <td><a href="mailto: hencyhd39@gmail.com" class="text-black link link-underline link-underline-opacity-0">hencyhd39@gmail.com</a></td>
+                                                    <td><a href="mailto: hencyhd39@gmail.com"
+                                                            class="text-black link link-underline link-underline-opacity-0">hencyhd39@gmail.com</a>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-muted">GitHub</td>
                                                     <td>:</td>
-                                                    <td><a href="mailto: hencyhd39@gmail.com" class="text-black link link-underline link-underline-opacity-0">hencyhd39@gmail.com</a></td>
+                                                    <td><a href="https://github.com/hencydsouza"
+                                                            class="link link-underline link-underline-opacity-0">github.com/hencydsouza</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Phone</td>
+                                                    <td>:</td>
+                                                    <td>+91 9901430235</td>
                                                 </tr>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="card-footer bg-primary d-flex justify-content-evenly">
+                                <a href=""><i class="bi bi-twitter-x fa-2x" style="color: white;"></i></a>
+                                <a href=""><i class="bi bi-youtube fa-2x" style="color: white;"></i></a>
+                                <a href=""><i class="bi bi-pinterest fa-2x" style="color: white;"></i></a>
+                                <a href=""><i class="bi bi-github fa-2x" style="color: white;"></i></a>
                             </div>
                         </div>
                     </div>
